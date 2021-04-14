@@ -4,6 +4,10 @@ from amp.descriptor.gaussian import Gaussian, make_symmetry_functions
 from amp.utilities import get_hash
 import numpy as np
 
+
+# Set up two unit cells: xtl_centered has the two atoms at the center of the
+# cell, and xtl_edges has atoms at opposite ends of the cell. Both should be
+# physically identical with periodic boundary conditions.
 cell = [6, 4, 4]
 
 xtl_centered = ase.Atoms('Si2',
@@ -16,12 +20,14 @@ xtl_edges =  ase.Atoms('Si2',
         cell = cell,
         pbc = [True, True, True])
 
+# Set up descriptor set with Gaussian G2 descriptors.
 elements = ['Si']
 cutoff = 3
 symm_funcs = make_symmetry_functions(elements=elements, type='G2', etas=[1],
         offsets=np.array([0, 0.5, 0.8])*cutoff)
 descriptor = Gaussian(Gs=symm_funcs, cutoff=cutoff)
 
+# Compute fingerprints and fingerprintprimes
 hash_centered = get_hash(xtl_centered)
 hash_edges = get_hash(xtl_edges)
 images = {hash_centered: xtl_centered, hash_edges: xtl_edges}
@@ -33,6 +39,7 @@ fp_edges = descriptor.fingerprints[hash_edges]
 fpp_centered = descriptor.fingerprintprimes[hash_centered]
 fpp_edges = descriptor.fingerprintprimes[hash_edges]
 
+# Print the results.
 print('FINGERPRINTS')
 print('Cutoff fully within cell.')
 print('PBC:', xtl_centered.pbc)
