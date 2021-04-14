@@ -12,7 +12,7 @@ xtl_centered = ase.Atoms('Si2',
         pbc = [True, True, True])
 
 xtl_edges =  ase.Atoms('Si2',
-        positions = [[1,0,0], [5,0,0]],
+        positions = [[5,0,0], [1,0,0]],
         cell = cell,
         pbc = [True, True, True])
 
