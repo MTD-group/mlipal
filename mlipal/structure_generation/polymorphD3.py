@@ -1,4 +1,4 @@
-from super_cell import compute_super_cell_needed_for_rcut
+from .super_cell import compute_super_cell_needed_for_rcut
 from ase import build
 import numpy as np
 

@@ -1,7 +1,7 @@
 import ase
 from ase.calculators.kim import KIM
 from ase.build import bulk
-from calculate_fingerprints import calculate_fingerprints
+from mlipal.descriptors import calculate_fingerprints
 import numpy as np
 import os
 import sys
@@ -52,7 +52,10 @@ def main():
 
     # Save each xtl w/ energy and forces computed to a trajectory file
     data_dir = 'data'
-    for i, vol in vol_mults:
+    if not os.path.exists(data_dir):
+        os.makedirs(data_dir)
+
+    for i, vol in enumerate(vol_mults):
         xtl = xtls[i]
         compute_energy_and_forces(xtl)
         xtl.write(os.path.join(data_dir, '{:.2f}.traj'.format(vol)))
