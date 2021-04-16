@@ -1,5 +1,8 @@
-# AMP-specific
+# AMP
 *.ampdb
+
+# ASE
+*.traj
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
