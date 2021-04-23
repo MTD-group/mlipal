@@ -1,10 +1,6 @@
 import amp
-from amp import Amp 
 from amp.descriptor.gaussian import Gaussian, make_symmetry_functions
-import ase
 import numpy as np
-import os
-import re
 
 def calculate_fingerprints(atoms, descriptor):
     ''' Calculates fingerprints of an ASE Atoms object using the given
@@ -31,7 +27,7 @@ def two_body_gaussians(atoms, cutoff=3, num_etas=2, num_offsets=5, etas=None,
     ''' Generates two-body descriptors by spacing out gaussians and biasing
     sampling towards the equilibrium position. '''
 
-    elements = set(atoms.get_chemical_symbols())
+    elements = list(set(atoms.get_chemical_symbols()))
     
     cutoff = 3
     # TODO: take num_etas and num_offsets and systematically generate etas and
@@ -46,6 +42,32 @@ def two_body_gaussians(atoms, cutoff=3, num_etas=2, num_offsets=5, etas=None,
 
     symm_funcs = make_symmetry_functions(elements=elements, type='G2',
             etas=etas, offsets=offsets)
+    descriptor = Gaussian(Gs=symm_funcs, cutoff=cutoff)
+
+    return descriptor
+
+def three_body_gaussians(atoms, cutoff=3, num_etas=2, num_zetas=2,
+        num_gammas=2, etas=None, zetas=None, gammas=None):
+    ''' Generates three-body descriptors by spacing out gaussians and biasing
+    sampling towards the equilibrium positions. '''
+
+    elements = list(set(atoms.get_chemical_symbols()))
+    
+    # TODO: systematically generate etas and
+    # offsets arrays, only if parameters (etas, zetas, gammas) are None. For
+    # now, resorts to default
+    if etas is None:
+        etas = [1,20]
+        # Generate etas
+    if zetas is None:
+        zetas = [0.5, 1, 2, 4]
+        # Generate offsets
+    if gammas is None:
+        gammas = [-1, 1]
+        # Generate offsets
+
+    symm_funcs = make_symmetry_functions(elements=elements, type='G4',
+            etas=etas, zetas=zetas, gammas=gammas)
     descriptor = Gaussian(Gs=symm_funcs, cutoff=cutoff)
 
     return descriptor
