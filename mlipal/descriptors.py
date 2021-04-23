@@ -29,7 +29,6 @@ def two_body_gaussians(atoms, cutoff=3, num_etas=2, num_offsets=5, etas=None,
 
     elements = list(set(atoms.get_chemical_symbols()))
     
-    cutoff = 3
     # TODO: take num_etas and num_offsets and systematically generate etas and
     # offsets arrays, only if etas and offsets are None. For now, resorts to
     # default
@@ -47,7 +46,7 @@ def two_body_gaussians(atoms, cutoff=3, num_etas=2, num_offsets=5, etas=None,
     return descriptor
 
 def three_body_gaussians(atoms, cutoff=3, num_etas=2, num_zetas=2,
-        num_gammas=2, etas=None, zetas=None, gammas=None):
+        num_gammas=2, etas=None, zetas=None, gammas=None, **kwargs):
     ''' Generates three-body descriptors by spacing out gaussians and biasing
     sampling towards the equilibrium positions. '''
 
@@ -57,7 +56,7 @@ def three_body_gaussians(atoms, cutoff=3, num_etas=2, num_zetas=2,
     # offsets arrays, only if parameters (etas, zetas, gammas) are None. For
     # now, resorts to default
     if etas is None:
-        etas = [1,20]
+        etas = [0.1,2]
         # Generate etas
     if zetas is None:
         zetas = [0.5, 1, 2, 4]
@@ -66,8 +65,8 @@ def three_body_gaussians(atoms, cutoff=3, num_etas=2, num_zetas=2,
         gammas = [-1, 1]
         # Generate offsets
 
-    symm_funcs = make_symmetry_functions(elements=elements, type='G4',
-            etas=etas, zetas=zetas, gammas=gammas)
+    symm_funcs = make_symmetry_functions(elements=elements, type='G5',
+            etas=etas, zetas=zetas, gammas=gammas, **kwargs)
     descriptor = Gaussian(Gs=symm_funcs, cutoff=cutoff)
 
     return descriptor
