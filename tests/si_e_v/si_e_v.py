@@ -1,7 +1,8 @@
+import amp
 import ase
 from ase.calculators.kim import KIM
 from ase.build import bulk
-from mlipal.descriptors import calculate_fingerprints
+from mlipal.descriptors import three_body_gaussians
 import numpy as np
 import os
 import sys
@@ -42,7 +43,40 @@ def generate_volume_series(vol_mults = np.linspace(0.6, 2, 50)):
 
     return xtls
 
+def calculate_si_e_v_fingerprints(vol_mults = np.linspace(0.6, 2, 50),
+        descriptor=None):
+    '''Example function which returns a volume series of scaled equilibrium Si
+    structures along with energies and descriptors.'''
+
+    # This sets up a series of lattice constant multipliers that is biased
+    # towards the ground state lattice constant (i.e. v=1)
+    v1 = np.linspace(0.6, 0.8, 81)
+    v2 = np.linspace(0.8, 1.2, 401)
+    v3 = np.linspace(1.2, 2, 201)
+    vol_mults = np.concatenate( (v1, v2, v3) )
+
+    xtls = generate_volume_series(vol_mults)
+    images = amp.utilities.hash_images(xtls)
+
+    descriptor = three_body_gaussians(xtls[0])
+    descriptor.calculate_fingerprints(images)
+
+    atoms_and_fingerprints = {}
+
+    for xtl in xtls:
+        atoms_hash = amp.utilities.get_hash(xtl)
+        fp = descriptor.fingerprints[atoms_hash]
+
+        compute_energy_and_forces(xtl)
+
+        atoms_and_fingerprints[atoms_hash] = [xtl, fp]
+
+    return atoms_and_fingerprints
+
+
 def main():
+    # This sets up a series of lattice constant multipliers that is biased
+    # towards the ground state lattice constant (i.e. v=1)
     v1 = np.linspace(0.6, 0.8, 81)
     v2 = np.linspace(0.8, 1.2, 401)
     v3 = np.linspace(1.2, 2, 201)
