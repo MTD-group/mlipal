@@ -2,26 +2,6 @@ import amp
 from amp.descriptor.gaussian import Gaussian, make_symmetry_functions
 import numpy as np
 
-def calculate_fingerprints(atoms, descriptor):
-    ''' Calculates fingerprints of an ASE Atoms object using the given
-    descriptor set.
-
-    Inputs:
-        atoms: ASE Atoms object. This function can (currently) only take one
-            Atoms object as input.
-        descriptor: AMP descriptor object. Descriptor set which will be used to
-            compute the fingerprints.
-
-    Outputs:
-        fingerprints: dict. {hash: fingerprints} '''
-
-    atoms_hash = amp.utilities.get_hash(atoms)
-
-    descriptor.calculate_fingerprints({atoms_hash: atoms})
-
-    # NOTE: should this return just the fingerprints, without the hash?
-    return {atoms_hash: descriptor.fingerprints[atoms_hash]}
-
 def two_body_gaussians(atoms, cutoff=3, num_etas=2, num_offsets=5, etas=None,
         offsets=None):
     ''' Generates two-body descriptors by spacing out gaussians and biasing
@@ -65,6 +45,7 @@ def three_body_gaussians(atoms, cutoff=3, num_etas=2, num_zetas=2,
         gammas = [-1, 1]
         # Generate offsets
 
+    # NOTE: once we switch to using DFT, change to G4
     symm_funcs = make_symmetry_functions(elements=elements, type='G5',
             etas=etas, zetas=zetas, gammas=gammas, **kwargs)
     descriptor = Gaussian(Gs=symm_funcs, cutoff=cutoff)
