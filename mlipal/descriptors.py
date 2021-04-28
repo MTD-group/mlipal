@@ -2,10 +2,10 @@ import amp
 from amp.descriptor.gaussian import Gaussian, make_symmetry_functions
 import numpy as np
 
-def two_body_gaussians(atoms, cutoff=3, num_etas=2, num_offsets=5, etas=None,
+def two_body_gaussians(atoms, num_etas=2, num_offsets=5, etas=None,
         offsets=None):
-    ''' Generates two-body descriptors by spacing out gaussians and biasing
-    sampling towards the equilibrium position. '''
+    ''' Generates two-body symmetry functions by spacing out gaussians and
+    biasing sampling towards the equilibrium position. '''
 
     elements = list(set(atoms.get_chemical_symbols()))
     
@@ -21,14 +21,14 @@ def two_body_gaussians(atoms, cutoff=3, num_etas=2, num_offsets=5, etas=None,
 
     symm_funcs = make_symmetry_functions(elements=elements, type='G2',
             etas=etas, offsets=offsets)
-    descriptor = Gaussian(Gs=symm_funcs, cutoff=cutoff)
+    #descriptor = Gaussian(Gs=symm_funcs, cutoff=cutoff)
 
-    return descriptor
+    return symm_funcs
 
-def three_body_gaussians(atoms, cutoff=3, num_etas=2, num_zetas=2,
-        num_gammas=2, etas=None, zetas=None, gammas=None, **kwargs):
-    ''' Generates three-body descriptors by spacing out gaussians and biasing
-    sampling towards the equilibrium positions. '''
+def three_body_gaussians(atoms, num_etas=2, num_zetas=2, num_gammas=2,
+        etas=None, zetas=None, gammas=None, **kwargs):
+    ''' Generates three-body symmetry functions by spacing out gaussians and
+    biasing sampling towards the equilibrium positions. '''
 
     elements = list(set(atoms.get_chemical_symbols()))
     
@@ -48,9 +48,9 @@ def three_body_gaussians(atoms, cutoff=3, num_etas=2, num_zetas=2,
     # NOTE: once we switch to using DFT, change to G4
     symm_funcs = make_symmetry_functions(elements=elements, type='G5',
             etas=etas, zetas=zetas, gammas=gammas, **kwargs)
-    descriptor = Gaussian(Gs=symm_funcs, cutoff=cutoff)
+    #descriptor = Gaussian(Gs=symm_funcs, cutoff=cutoff)
 
-    return descriptor
+    return symm_funcs
 
 def main():
     ''' This currently doesn't do anything but I'm keeping it as reference for
