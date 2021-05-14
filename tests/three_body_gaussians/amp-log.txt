@@ -1,0 +1,1148 @@
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-02T21:57:22 (2021-05-03T02:57:22 UTC)
+Architecture: x86_64
+PID: 19788
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-02T21:58:17 (2021-05-03T02:58:17 UTC)
+Architecture: x86_64
+PID: 19788
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-02T21:59:11 (2021-05-03T02:59:11 UTC)
+Architecture: x86_64
+PID: 19788
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-02T22:56:37 (2021-05-03T03:56:37 UTC)
+Architecture: x86_64
+PID: 8959
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-03T00:55:59 (2021-05-03T05:55:59 UTC)
+Architecture: x86_64
+PID: 8959
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-03T00:56:19 (2021-05-03T05:56:19 UTC)
+Architecture: x86_64
+PID: 8959
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-03T00:57:58 (2021-05-03T05:57:58 UTC)
+Architecture: x86_64
+PID: 8959
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-14T16:27:49 (2021-05-14T21:27:49 UTC)
+Architecture: x86_64
+PID: 494750
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+Amp training started. 2021-05-14T16:27:49
+
+Descriptor: Gaussian
+  (<amp.descriptor.gaussian.Gaussian object at 0x7ffa9c3bb880>)
+Model: NeuralNetwork
+  (<amp.model.neuralnetwork.NeuralNetwork object at 0x7ffa9c3bbb80>)
+Hashing images...
+ 50 unique images after hashing.
+...hashing completed. 10.6 ms
+
+Descriptor
+==========
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-14T17:09:06 (2021-05-14T22:09:06 UTC)
+Architecture: x86_64
+PID: 562527
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+Amp training started. 2021-05-14T17:09:06
+
+Descriptor: Gaussian
+  (<amp.descriptor.gaussian.Gaussian object at 0x7f90e67b0bb0>)
+Model: NeuralNetwork
+  (<amp.model.neuralnetwork.NeuralNetwork object at 0x7f90ee891d30>)
+Hashing images...
+ 50 unique images after hashing.
+...hashing completed. 6.5 ms
+
+Descriptor
+==========
+Cutoff function: <Cosine cutoff with Rc=3.000 from amp.descriptor.cutoffs>
+Finding unique set of elements in training data.
+1 unique elements included: Si
+List of symmetry functions supplied; assumed identical for each element.
+Number of symmetry functions for each element:
+ Si: 16
+Si feature vector functions:
+ 0: G5, (Si, Si), eta=0.1, gamma=-1, zeta=0.5
+ 1: G5, (Si, Si), eta=0.1, gamma=1, zeta=0.5
+ 2: G5, (Si, Si), eta=0.1, gamma=-1, zeta=1
+ 3: G5, (Si, Si), eta=0.1, gamma=1, zeta=1
+ 4: G5, (Si, Si), eta=0.1, gamma=-1, zeta=2
+ 5: G5, (Si, Si), eta=0.1, gamma=1, zeta=2
+ 6: G5, (Si, Si), eta=0.1, gamma=-1, zeta=4
+ 7: G5, (Si, Si), eta=0.1, gamma=1, zeta=4
+ 8: G5, (Si, Si), eta=2, gamma=-1, zeta=0.5
+ 9: G5, (Si, Si), eta=2, gamma=1, zeta=0.5
+ 10: G5, (Si, Si), eta=2, gamma=-1, zeta=1
+ 11: G5, (Si, Si), eta=2, gamma=1, zeta=1
+ 12: G5, (Si, Si), eta=2, gamma=-1, zeta=2
+ 13: G5, (Si, Si), eta=2, gamma=1, zeta=2
+ 14: G5, (Si, Si), eta=2, gamma=-1, zeta=4
+ 15: G5, (Si, Si), eta=2, gamma=1, zeta=4
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 243 total images, 50 of which are needed.
+ 0 new calculations needed.
+...neighborlists calculated. 1.2 ms
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 243 total images, 50 of which are needed.
+ 0 new calculations needed.
+...fingerprints calculated. 1.0 ms
+Calculating fingerprint derivatives...
+ Data stored in file amp-fingerprint-primes.
+ File exists with 0 total images, 0 of which are needed.
+ 50 new calculations needed.
+ Parallel processing.
+ Established server at thunderbird.ms.northwestern.edu:39843.
+ Establishing worker sessions.
+ detected non-Windows platform, running local connections with pexpect.spawn
+ Starting local connections.
+  Session 0 (localhost): b'Log and error written to /tmp/tmp1t9fra53.stderr'
+  Session 1 (localhost): b'Log and error written to /tmp/tmp5j_cvz8l.stderr'
+  Session 2 (localhost): b'Log and error written to /tmp/tmpdf4jchk8.stderr'
+  Session 3 (localhost): b'Log and error written to /tmp/tmp_ho5s8iz.stderr'
+  Session 4 (localhost): b'Log and error written to /tmp/tmpmnlvc_zh.stderr'
+  Session 5 (localhost): b'Log and error written to /tmp/tmp48rf2jdl.stderr'
+  Session 6 (localhost): b'Log and error written to /tmp/tmpz02b6dx3.stderr'
+  Session 7 (localhost): b'Log and error written to /tmp/tmphn_6j7d2.stderr'
+  Session 8 (localhost): b'Log and error written to /tmp/tmpkxglr0ol.stderr'
+  Session 9 (localhost): b'Log and error written to /tmp/tmpo87fxbfn.stderr'
+  Session 10 (localhost): b'Log and error written to /tmp/tmpt_0wskxr.stderr'
+  Session 11 (localhost): b'Log and error written to /tmp/tmplx7xzy49.stderr'
+  Session 12 (localhost): b'Log and error written to /tmp/tmprz2f6bn5.stderr'
+  Session 13 (localhost): b'Log and error written to /tmp/tmpcc8wvxbo.stderr'
+  Session 14 (localhost): b'Log and error written to /tmp/tmpjqh0nohn.stderr'
+  Session 15 (localhost): b'Log and error written to /tmp/tmpalbq2mnm.stderr'
+ Parallel calculations starting...
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-14T17:14:20 (2021-05-14T22:14:20 UTC)
+Architecture: x86_64
+PID: 562527
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+Amp training started. 2021-05-14T17:14:21
+
+Descriptor: Gaussian
+  (<amp.descriptor.gaussian.Gaussian object at 0x7f90e67b0bb0>)
+Model: NeuralNetwork
+  (<amp.model.neuralnetwork.NeuralNetwork object at 0x7f917c8e6910>)
+Hashing images...
+ 50 unique images after hashing.
+...hashing completed. 8.2 ms
+
+Descriptor
+==========
+Cutoff function: <Cosine cutoff with Rc=3.000 from amp.descriptor.cutoffs>
+1 unique elements included: Si
+Number of symmetry functions for each element:
+ Si: 16
+Si feature vector functions:
+ 0: G5, (Si, Si), eta=0.1, gamma=-1, zeta=0.5
+ 1: G5, (Si, Si), eta=0.1, gamma=1, zeta=0.5
+ 2: G5, (Si, Si), eta=0.1, gamma=-1, zeta=1
+ 3: G5, (Si, Si), eta=0.1, gamma=1, zeta=1
+ 4: G5, (Si, Si), eta=0.1, gamma=-1, zeta=2
+ 5: G5, (Si, Si), eta=0.1, gamma=1, zeta=2
+ 6: G5, (Si, Si), eta=0.1, gamma=-1, zeta=4
+ 7: G5, (Si, Si), eta=0.1, gamma=1, zeta=4
+ 8: G5, (Si, Si), eta=2, gamma=-1, zeta=0.5
+ 9: G5, (Si, Si), eta=2, gamma=1, zeta=0.5
+ 10: G5, (Si, Si), eta=2, gamma=-1, zeta=1
+ 11: G5, (Si, Si), eta=2, gamma=1, zeta=1
+ 12: G5, (Si, Si), eta=2, gamma=-1, zeta=2
+ 13: G5, (Si, Si), eta=2, gamma=1, zeta=2
+ 14: G5, (Si, Si), eta=2, gamma=-1, zeta=4
+ 15: G5, (Si, Si), eta=2, gamma=1, zeta=4
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 243 total images, 50 of which are needed.
+ 0 new calculations needed.
+...neighborlists calculated. 508.1 us
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 243 total images, 50 of which are needed.
+ 0 new calculations needed.
+...fingerprints calculated. 404.8 us
+Calculating fingerprint derivatives...
+ Data stored in file amp-fingerprint-primes.
+ File exists with 0 total images, 0 of which are needed.
+ 50 new calculations needed.
+ Parallel processing.
+ Established server at thunderbird.ms.northwestern.edu:42653.
+ Establishing worker sessions.
+ detected non-Windows platform, running local connections with pexpect.spawn
+ Starting local connections.
+  Session 0 (localhost): b'Log and error written to /tmp/tmpmjdnvfd0.stderr'
+  Session 1 (localhost): b'Log and error written to /tmp/tmpokxithda.stderr'
+  Session 2 (localhost): b'Log and error written to /tmp/tmppgjzcz33.stderr'
+  Session 3 (localhost): b'Log and error written to /tmp/tmp720n334q.stderr'
+  Session 4 (localhost): b'Log and error written to /tmp/tmp6dwj1ax6.stderr'
+  Session 5 (localhost): b'Log and error written to /tmp/tmp0u65ck9f.stderr'
+  Session 6 (localhost): b'Log and error written to /tmp/tmpf3y0bi6m.stderr'
+  Session 7 (localhost): b'Log and error written to /tmp/tmpvpby703c.stderr'
+  Session 8 (localhost): b'Log and error written to /tmp/tmpz1n0msvp.stderr'
+  Session 9 (localhost): b'Log and error written to /tmp/tmpbjcehiuy.stderr'
+  Session 10 (localhost): b'Log and error written to /tmp/tmp092burqy.stderr'
+  Session 11 (localhost): b'Log and error written to /tmp/tmptws5y6d0.stderr'
+  Session 12 (localhost): b'Log and error written to /tmp/tmp_tgdpnfi.stderr'
+  Session 13 (localhost): b'Log and error written to /tmp/tmpnii7s7_6.stderr'
+  Session 14 (localhost): b'Log and error written to /tmp/tmpwweuoxsv.stderr'
+  Session 15 (localhost): b'Log and error written to /tmp/tmph27guwsb.stderr'
+ Parallel calculations starting...
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-14T17:14:28 (2021-05-14T22:14:28 UTC)
+Architecture: x86_64
+PID: 562527
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+Amp training started. 2021-05-14T17:14:28
+
+Descriptor: Gaussian
+  (<amp.descriptor.gaussian.Gaussian object at 0x7f90e67b0bb0>)
+Model: NeuralNetwork
+  (<amp.model.neuralnetwork.NeuralNetwork object at 0x7f917c8fa040>)
+Hashing images...
+ 50 unique images after hashing.
+...hashing completed. 6.6 ms
+
+Descriptor
+==========
+Cutoff function: <Cosine cutoff with Rc=3.000 from amp.descriptor.cutoffs>
+1 unique elements included: Si
+Number of symmetry functions for each element:
+ Si: 16
+Si feature vector functions:
+ 0: G5, (Si, Si), eta=0.1, gamma=-1, zeta=0.5
+ 1: G5, (Si, Si), eta=0.1, gamma=1, zeta=0.5
+ 2: G5, (Si, Si), eta=0.1, gamma=-1, zeta=1
+ 3: G5, (Si, Si), eta=0.1, gamma=1, zeta=1
+ 4: G5, (Si, Si), eta=0.1, gamma=-1, zeta=2
+ 5: G5, (Si, Si), eta=0.1, gamma=1, zeta=2
+ 6: G5, (Si, Si), eta=0.1, gamma=-1, zeta=4
+ 7: G5, (Si, Si), eta=0.1, gamma=1, zeta=4
+ 8: G5, (Si, Si), eta=2, gamma=-1, zeta=0.5
+ 9: G5, (Si, Si), eta=2, gamma=1, zeta=0.5
+ 10: G5, (Si, Si), eta=2, gamma=-1, zeta=1
+ 11: G5, (Si, Si), eta=2, gamma=1, zeta=1
+ 12: G5, (Si, Si), eta=2, gamma=-1, zeta=2
+ 13: G5, (Si, Si), eta=2, gamma=1, zeta=2
+ 14: G5, (Si, Si), eta=2, gamma=-1, zeta=4
+ 15: G5, (Si, Si), eta=2, gamma=1, zeta=4
+Calculating neighborlists...
+ Data stored in file amp-neighborlists.
+ File exists with 243 total images, 50 of which are needed.
+ 0 new calculations needed.
+...neighborlists calculated. 574.8 us
+Fingerprinting images...
+ Data stored in file amp-fingerprints.
+ File exists with 243 total images, 50 of which are needed.
+ 0 new calculations needed.
+...fingerprints calculated. 455.9 us
+Calculating fingerprint derivatives...
+ Data stored in file amp-fingerprint-primes.
+ File exists with 0 total images, 0 of which are needed.
+ 50 new calculations needed.
+ Parallel processing.
+ Established server at thunderbird.ms.northwestern.edu:36195.
+ Establishing worker sessions.
+ detected non-Windows platform, running local connections with pexpect.spawn
+ Starting local connections.
+  Session 0 (localhost): b'Log and error written to /tmp/tmptlsluk29.stderr'
+  Session 1 (localhost): b'Log and error written to /tmp/tmplwydyn2y.stderr'
+  Session 2 (localhost): b'Log and error written to /tmp/tmp8yu0a0ra.stderr'
+  Session 3 (localhost): b'Log and error written to /tmp/tmpmdyop870.stderr'
+  Session 4 (localhost): b'Log and error written to /tmp/tmpyt478c2p.stderr'
+  Session 5 (localhost): b'Log and error written to /tmp/tmpovxnmnuk.stderr'
+  Session 6 (localhost): b'Log and error written to /tmp/tmpzu2t4f_z.stderr'
+  Session 7 (localhost): b'Log and error written to /tmp/tmpv2tyso9u.stderr'
+  Session 8 (localhost): b'Log and error written to /tmp/tmpofshz34d.stderr'
+  Session 9 (localhost): b'Log and error written to /tmp/tmp6nqskk8p.stderr'
+  Session 10 (localhost): b'Log and error written to /tmp/tmpf2p691oi.stderr'
+  Session 11 (localhost): b'Log and error written to /tmp/tmp8_8c249k.stderr'
+  Session 12 (localhost): b'Log and error written to /tmp/tmpjqgqfo_2.stderr'
+  Session 13 (localhost): b'Log and error written to /tmp/tmpvfealjk5.stderr'
+  Session 14 (localhost): b'Log and error written to /tmp/tmp4ijpv1js.stderr'
+  Session 15 (localhost): b'Log and error written to /tmp/tmpr14bp72x.stderr'
+ Parallel calculations starting...
+Timing:                      incl.     excl.
+---------------------------------------------------
+train:                     556.216   551.300  99.1% |---------------------------------------|
+ calculate_fingerprints:     4.909     4.909   0.9% |
+ hash_images:                0.007     0.007   0.0% |
+Other:                       0.016     0.016   0.0% |
+---------------------------------------------------
+Total:                               556.231 100.0%
+
+Timing:                      incl.     excl.
+---------------------------------------------------
+train:                     243.157   238.286  97.7% |--------------------------------------|
+ calculate_fingerprints:     4.863     4.863   2.0% ||
+ hash_images:                0.008     0.008   0.0% |
+Other:                       0.750     0.750   0.3% |
+---------------------------------------------------
+Total:                               243.907 100.0%
+
+Timing:                      incl.     excl.
+---------------------------------------------------
+train:                     379.285   374.395  98.6% |--------------------------------------|
+ calculate_fingerprints:     4.883     4.883   1.3% ||
+ hash_images:                0.007     0.007   0.0% |
+Other:                       0.506     0.506   0.1% |
+---------------------------------------------------
+Total:                               379.791 100.0%
+
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-14T17:20:49 (2021-05-14T22:20:49 UTC)
+Architecture: x86_64
+PID: 578763
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-14T17:27:21 (2021-05-14T22:27:21 UTC)
+Architecture: x86_64
+PID: 587366
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-14T17:28:37 (2021-05-14T22:28:37 UTC)
+Architecture: x86_64
+PID: 589014
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-14T17:29:28 (2021-05-14T22:29:28 UTC)
+Architecture: x86_64
+PID: 590220
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-14T17:31:02 (2021-05-14T22:31:02 UTC)
+Architecture: x86_64
+PID: 592333
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-14T17:31:25 (2021-05-14T22:31:25 UTC)
+Architecture: x86_64
+PID: 592850
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-14T17:31:43 (2021-05-14T22:31:43 UTC)
+Architecture: x86_64
+PID: 593299
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-14T17:34:09 (2021-05-14T22:34:09 UTC)
+Architecture: x86_64
+PID: 596517
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-14T17:34:25 (2021-05-14T22:34:25 UTC)
+Architecture: x86_64
+PID: 596921
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-14T17:34:58 (2021-05-14T22:34:58 UTC)
+Architecture: x86_64
+PID: 597668
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
+
+   oo      o       o   oooooo
+  o  o     oo     oo   o     o
+ o    o    o o   o o   o     o
+o      o   o  o o  o   o     o
+oooooooo   o   o   o   oooooo
+o      o   o       o   o
+o      o   o       o   o
+o      o   o       o   o
+
+Amp: Atomistic Machine-learning Package
+Developed by Andrew Peterson, Alireza Khorshidi, and others,
+Brown University.
+PI Website: http://brown.edu/go/catalyst
+Official repository: http://bitbucket.org/andrewpeterson/amp
+Official documentation: http://amp.readthedocs.io/
+Citation:
+  Alireza Khorshidi & Andrew A. Peterson,
+  Computer Physics Communications 207: 310-324 (2016).
+  http://doi.org/10.1016/j.cpc.2016.05.010
+======================================================================
+User: skoyama
+Hostname: thunderbird.ms.northwestern.edu
+Date: 2021-05-14T17:39:49 (2021-05-14T22:39:49 UTC)
+Architecture: x86_64
+PID: 604064
+Amp version: 0.7.0-beta
+Amp directory: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/amp
+ Last commit: unknown hash
+ Last commit date: unknown date
+Python: v3.8.8: /home/skoyama/anaconda3/envs/asap3_amp/bin/python
+ASE v3.21.1: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/ase
+NumPy v1.20.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/numpy
+SciPy v1.6.2: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/scipy
+ZMQ/PyZMQ v4.3.4/v22.0.3: /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/zmq
+pxssh: Not available from pxssh.
+pxssh (via pexpect v4.8.0): /home/skoyama/anaconda3/envs/asap3_amp/lib/python3.8/site-packages/pexpect/pxssh.py
+======================================================================
+number of cores manually specified; single machine assumed.
+Parallel configuration determined from environment for <single machine>:
+  localhost: 16
