@@ -66,7 +66,7 @@ def calculate_si_e_v_fingerprints(vol_mults = np.linspace(0.6, 2, 50),
 
     atoms_and_fingerprints = {}
 
-    # Iterates through each Atoms object and computes its energy and
+    # Iterates through each Atoms object and computed its energy and
     # fingerprints.
     for xtl in xtls:
         atoms_hash = amp.utilities.get_hash(xtl)
