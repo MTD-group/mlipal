@@ -19,9 +19,9 @@ def main():
 
     # E-V structures
     print('Generating EV structures')
-    v1 = np.linspace(0.5, 0.625, np.ceil(nev / 5))
-    v2 = np.linspace(0.625, 1.625, np.ceil(3 * nev / 5))
-    v3 = np.linspace(1.625, 2.4, np.ceil(nev/5))
+    v1 = np.linspace(0.5, 0.625, int(np.ceil(nev / 5)))
+    v2 = np.linspace(0.625, 1.625, int(np.ceil(3 * nev / 5)))
+    v3 = np.linspace(1.625, 2.4, int(np.ceil(nev/5)))
     ev_structures = gen.volume_series.volume_series(vol_mults = np.concatenate((v1,v2,v3)))
 
     with ase.db.connect(db_filename) as db:
@@ -45,8 +45,8 @@ def main():
 
     with ase.db.connect(db_filename) as db:
         for i in range(npoly_small):
-            Poly = gen.polymorphD3.Poly(equilibrium_si, rcut=3, flip_chance=0,
-                    swap_chance=0, **params)
+            Poly = gen.polymorphD3.PolymorphD3(equilibrium_si, rcut=3,
+                    flip_chance=0, swap_chance=0, **params)
             atoms = Poly.atoms_out
 
             atom_hash = amp.utilities.get_hash(atoms)
@@ -65,8 +65,8 @@ def main():
 
     with ase.db.connect(db_filename) as db:
         for i in range(npoly_large):
-            Poly = gen.polymorphD3.Poly(equilibrium_si, rcut=3, flip_chance=0,
-                    swap_chance=0, **params)
+            Poly = gen.polymorphD3.PolymorphD3(equilibrium_si, rcut=3,
+                    flip_chance=0, swap_chance=0, **params)
             atoms = Poly.atoms_out
 
             atom_hash = amp.utilities.get_hash(atoms)
@@ -83,7 +83,7 @@ def main():
     with ase.db.connect(db_filename) as db:
         for i in range(nrandom):
             print('Random structure number:', i)
-            atoms = gen.rrsm.reasonable_random_structure_maker('Si',
+            atoms = gen.rrsm.reasonable_random_structure_maker(['Si'],
                     cut_off_radius = 3,
                     fill_factor_max = 0.65,
                     fill_factor_min = 0.2,
