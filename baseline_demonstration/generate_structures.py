@@ -85,7 +85,7 @@ def main():
             print('Random structure number:', i)
             atoms = gen.rrsm.reasonable_random_structure_maker('Si',
                     cut_off_radius = 3,
-                    fill_factor_max = 0.65
+                    fill_factor_max = 0.65,
                     fill_factor_min = 0.2,
                     composition_generator = composition)
 
@@ -93,3 +93,6 @@ def main():
             db.write(atoms, hash=atom_hash, type='random')
 
     print('Done!')
+
+if __name__ == '__main__':
+    main()
