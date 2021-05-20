@@ -14,7 +14,7 @@ def main():
     kim_calc = 'Tersoff_LAMMPS_Tersoff_1988T3_Si__MO_186459956893_003'
     calc = KIM(kim_calc)
 
-    compute_energies(calc, 'structures_no_random.db')
+    compute_energies(calc, 'structures.db')
 
 if __name__ == '__main__':
     main()
