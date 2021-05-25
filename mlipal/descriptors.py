@@ -7,7 +7,10 @@ def two_body_gaussians(atoms, cutoff=3, num_etas=2, num_offsets=5, etas=None,
     ''' Generates two-body symmetry functions by spacing out gaussians and
     biasing sampling towards the equilibrium position. '''
 
-    elements = list(set(atoms.get_chemical_symbols()))
+    if type(atoms) is list:
+        elements = atoms
+    else:
+        elements = list(set(atoms.get_chemical_symbols()))
     
     # TODO: take num_etas and num_offsets and systematically generate etas and
     # offsets arrays, only if etas and offsets are None. For now, resorts to
@@ -30,7 +33,10 @@ def three_body_gaussians(atoms, num_etas=2, num_zetas=2, num_gammas=2,
     ''' Generates three-body symmetry functions by spacing out gaussians and
     biasing sampling towards the equilibrium positions. '''
 
-    elements = list(set(atoms.get_chemical_symbols()))
+    if type(atoms) is list:
+        elements = atoms
+    else:
+        elements = list(set(atoms.get_chemical_symbols()))
     
     # TODO: systematically generate etas and
     # offsets arrays, only if parameters (etas, zetas, gammas) are None. For
