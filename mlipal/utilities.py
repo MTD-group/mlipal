@@ -1,9 +1,12 @@
-def convert_db_to_df(db, descriptor=None, columns=None):
+import numpy as np
+import pandas as pd
+
+def convert_db_to_df(db_generator, descriptor=None, columns=None):
     ''' Converts an ASE database into a dataframe. If an AMP descriptor is
     given, the dataframe will contain the fingerprints as well.
 
-    db: ASE Database.
-        Database to be converted into a dataframe.
+    db_generator: Generator.
+        Contains rows of ASE Database. Create using db.select().
 
     descriptor: AMP Descriptor.
         If given, fingerprints will be computed for each Atoms object in the
@@ -15,7 +18,7 @@ def convert_db_to_df(db, descriptor=None, columns=None):
         columns in the db.'''
 
     count = 0
-    for row in db.select():
+    for row in db_generator:
         descriptor.calculate_fingerprints({row.hash: row.toatoms()})
 
         hashes = np.asarray(row.hash).reshape(1,)
@@ -42,6 +45,7 @@ def convert_db_to_df(db, descriptor=None, columns=None):
                 atom_data = np.append(atom_data, atom_info, axis=0)     
 
     df = pd.DataFrame(atom_data)  
-    df = df.rename(columns={0: "hash", 1:"type", 2: "element", 3: "energy", 4: "force0", 5: "force1", 6: "force2"})             
+    df = df.rename(columns={0: "hash", 1:"type", 2: "energy", 3: "force0", 4:
+        "force1", 5: "force2", 6: "element"})             
 
     return df
