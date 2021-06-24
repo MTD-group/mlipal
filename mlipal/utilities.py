@@ -3,14 +3,16 @@ import pandas as pd
 
 def convert_db_to_df(db_generator, descriptor=None, columns=None):
     ''' Converts an ASE database into a dataframe. If an AMP descriptor is
-    given, the dataframe will contain the fingerprints as well.
+    given, the dataframe will contain the fingerprints as well and have one row
+    per atom. If no descriptor is given, the dataframe will have one row per
+    Atoms object (crystal structure).
 
     db_generator: Generator.
         Contains rows of ASE Database. Create using db.select().
 
     descriptor: AMP Descriptor.
         If given, fingerprints will be computed for each Atoms object in the
-        database.
+        database. Requires column for hashes.
 
     columns: list.
         A list of column names to be included in the dataframe. If not given,
@@ -19,7 +21,10 @@ def convert_db_to_df(db_generator, descriptor=None, columns=None):
 
     count = 0
     for row in db_generator:
-        descriptor.calculate_fingerprints({row.hash: row.toatoms()})
+        if descriptor:
+            descriptor.calculate_fingerprints({row.hash: row.toatoms()})
+
+        for k, v in row.key_value_pairs.items():
 
         hashes = np.asarray(row.hash).reshape(1,)
 
