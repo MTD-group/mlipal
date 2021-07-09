@@ -4,35 +4,43 @@ import ase.db
 from ase.md.contour_exploration import ContourExploration
 from ase.optimize import BFGS
 import numpy as np
+import os
 
 openkim_pot = 'Tersoff_LAMMPS_Tersoff_1988T3_Si__MO_186459956893_003'
 
 def main():
-    maxstep = 20
+    maxstep = 1
     angle_limit = 30
     nsteps = 20
+
+    log_dir = 'contour_log'
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir)
 
     with ase.db.connect('structures.db') as db:
         for row in db.select(type='random'):
             row_atoms = row.toatoms()
             initial_energy = relax_structure(row_atoms, steps=20, fmax=0.1)
+            delta_e = 1 / (nsteps * row.natoms)
 
-            for delta_e in np.linspace(0, 1, nsteps):
-                dyn = ContourExploration(
-                        row_atoms,
-                        energy_target = (initial_energy + delta_*row.natoms),
-                        maxstep = maxstep,
-                        angle_limit = angle_limit,
-                        logfile = 'contour.log'
-                        )
+            dyn = ContourExploration(
+                    row_atoms,
+                    maxstep = maxstep,
+                    angle_limit = angle_limit,
+                    logfile = log_dir + '/contour_row_{}.log'.format(row.id)
+                    )
+
+            for i in range(nsteps):
+                dyn.energy_target += delta_e
                 dyn.run(1)
-                
+
                 new_hash = amp.utilities.get_hash(row_atoms)
                 db.write(row_atoms, hash=new_hash, type='random_contour')
 
-def relax_structure(xtl, calc=KIM(openkim_pot), optimizer=BFGS, steps=5, fmax=5):
+def relax_structure(xtl, calc=KIM(openkim_pot), optimizer=BFGS, steps=5, fmax=1,
+        **kwargs):
     xtl.set_calculator(calc)
-    dyn = optimizer(xtl)
+    dyn = optimizer(xtl, **kwargs)
 
     dyn.run(fmax=fmax, steps=steps)
 
