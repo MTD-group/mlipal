@@ -21,7 +21,7 @@ def main():
         for row in db.select(type='random'):
             row_atoms = row.toatoms()
             initial_energy = relax_structure(row_atoms, steps=20, fmax=0.1)
-            delta_e = 1 / (nsteps * row.natoms)
+            delta_e = 1 * row.natoms / nsteps
 
             dyn = ContourExploration(
                     row_atoms,
