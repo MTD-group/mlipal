@@ -338,8 +338,10 @@ def RunAL(dataset, dataproperty, remove_column, out_dir, layer, al_component):
 
     while al.query_number < al_component[0]:
         early_stopping = EarlyStopping(monitor='val_loss', min_delta=1e-6, patience=50, verbose=0, mode='auto')
-        tr_ind = al.search(n_evaluation=3, ensemble='kfold', n_ensemble=3, normalize_input=True, normalize_internal=False,
-        batch_size=32, epochs=500, verbose=0, callbacks=[early_stopping],validation_split=0.1)
+        tr_ind = al.search(n_evaluation=3, ensemble='kfold', n_ensemble=3,
+                normalize_input=True, normalize_internal=False, batch_size=32,
+                epochs=500, verbose=0,
+                callbacks=[early_stopping],validation_split=0.1)
 
         print(tr_ind)
 
@@ -350,6 +352,8 @@ def RunAL(dataset, dataproperty, remove_column, out_dir, layer, al_component):
         pd.DataFrame(tr_ind).to_csv(out_dir+'/next_indices.csv',index=False)
 
 
+        # XXX Run calculation here to find energies and then "deposit" the data in
+        # the AL object.
         al.deposit(tr_ind, y[tr_ind])
 
         # you can run random search if you want to
