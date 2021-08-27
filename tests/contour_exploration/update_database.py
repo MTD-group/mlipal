@@ -46,5 +46,11 @@ def relax_structure(xtl, calc=KIM(openkim_pot), optimizer=BFGS, steps=5, fmax=1,
 
     return xtl.get_potential_energy()
 
+def filter_forces(db, type=None, f_cutoff=25):
+    if not type:
+        db.delete('fmax>{}'.format(f_cutoff))
+    else:
+        db.delete('fmax>{},type={}'.format(f_cutoff,type))
+
 if __name__ == '__main__':
     main()
