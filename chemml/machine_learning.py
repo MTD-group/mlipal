@@ -5,6 +5,7 @@ from amp import Amp
 from amp.descriptor.gaussian import Gaussian, make_symmetry_functions
 from amp.model.neuralnetwork import NeuralNetwork
 from amp.utilities import Logger, make_filename, hash_images, get_hash
+from ase.calculators.kim import KIM
 from ase import io
 #from ase.calculators.kim import KIM
 
@@ -307,8 +308,30 @@ def RunDL(train, test, dataproperty, remove_column):
 
     return result    
 
+def compute_energy(atoms, calc):
+    atoms.set_calculator(calc)
+    
+    return atoms.get_potential_energy()
 
 def RunAL(dataset, dataproperty, remove_column, out_dir, layer, al_component):
+    ''' Runs active learning loop.
+
+    dataset: pandas DataFrame
+        Contains training and test data.
+    dataproperty: str
+        Column name in dataset corresponding to the property of interest (i.e.
+        energy)
+    remove_column: list of strings
+        Column names to drop from dataset when performing training. Should drop
+        everything except for the feature vector?
+    out_dir: str
+        Directory to put output files
+    layer: str
+        Layer to extract information for active learning
+    al_component: list of ints
+        Parameters for active learning: [# of loops, training size, test size,
+        batch size]
+    '''
 
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)
@@ -336,6 +359,10 @@ def RunAL(dataset, dataproperty, remove_column, out_dir, layer, al_component):
     al.deposit(tr_ind, y[tr_ind])
     al.deposit(te_ind, y[te_ind])
 
+    # OpenKIM Tersoff calculator to compute energies
+    kim_calc = 'Tersoff_LAMMPS_Tersoff_1988T3_Si__MO_186459956893_003'
+    calc = KIM(kim_calc)
+
     while al.query_number < al_component[0]:
         early_stopping = EarlyStopping(monitor='val_loss', min_delta=1e-6, patience=50, verbose=0, mode='auto')
         tr_ind = al.search(n_evaluation=3, ensemble='kfold', n_ensemble=3,
@@ -352,9 +379,16 @@ def RunAL(dataset, dataproperty, remove_column, out_dir, layer, al_component):
         pd.DataFrame(tr_ind).to_csv(out_dir+'/next_indices.csv',index=False)
 
 
-        # XXX Run calculation here to find energies and then "deposit" the data in
-        # the AL object.
-        al.deposit(tr_ind, y[tr_ind])
+        tr_energies = []
+        for ind in tr_ind:
+            hash_ = dataset.iloc[ind]['hash']
+            atoms = db.get_atoms(hash==hash_)
+            tr_energies.append(compute_energy(atoms, calc))
+
+        # XXX is there a way to do this through a list comprehension?
+        #tr_energies = [compute_energy(row.toatoms(), calc) for row in
+        #        db.select()]
+        al.deposit(tr_ind, tr_energies)
 
         # you can run random search if you want to
         #al.random_search(y, n_evaluation=3, random_state=13, batch_size=32, epochs=500, verbose=0, callbacks=[early_stopping],validation_split=0.05)
