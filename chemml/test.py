@@ -27,12 +27,12 @@ from machine_learning import create_df_train, create_df_test, generate_descripto
 if __name__ == "__main__":
 
     test_num = 250
-    total_train = 10000
-    poly_train = 2000
+    total_train = 3000
+    poly_train = 500
     ev_train = 200
     random_train = total_train - (2*poly_train + ev_train)
 
-    df = pd.read_csv('new_descriptor.csv')
+    df = pd.read_csv('new_contour_descriptor.csv')
 
     df_test = df[df['type'] == 'ev'].sample(n = test_num, random_state=1234567)
     df_test_index = df_test.index
@@ -55,7 +55,7 @@ if __name__ == "__main__":
 
     out_dir = 'AL_testcase' # Output directory for AL
     layer = 'dense32' # Layer to extract info for AL
-    al_component = [1, 50, 50, 50] #[loop, train_size, test_size, batch_size]
+    al_component = [6, 50, 250, 50] #[loop, train_size, test_size, batch_size]
 
     # Perform active learning analysis
     df_train_al = df.iloc[df_train_index, :]

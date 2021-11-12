@@ -7,6 +7,7 @@ from amp.model.neuralnetwork import NeuralNetwork
 from amp.utilities import Logger, make_filename, hash_images, get_hash
 from ase.calculators.kim import KIM
 from ase import io
+from ase.db import connect
 #from ase.calculators.kim import KIM
 
 #from pymatgen.io.vasp import Poscar
@@ -271,6 +272,19 @@ def create_model():
     adam = optimizers.Adam(lr=0.0001)
     model.compile(loss=tf.keras.losses.mean_absolute_error, optimizer=adam, metrics=['mean_absolute_error'])
     
+    #in_layer = Input(shape=(descriptor_size,)) 
+    #layer_1 = Dense(1024)(in_layer) 
+    #layer_2 = Dense(512)(layer_1) 
+    #layer_3 = Dense(256)(layer_2) 
+    #layer_4 = Dense(128)(layer_3) 
+    #layer_5 = Dense(64)(layer_4) 
+    #layer_6 = Dense(32)(layer_5) 
+    #out_layer = Dense(1)(layer_6) 
+    #model = Model(inputs=in_layer, outputs=out_layer) 
+    #adam = optimizers.Adam(lr=0.0001) 
+    #model.compile(loss=tf.keras.losses.mean_absolute_error, optimizer=adam,
+    #        metrics=['mean_absolute_error'])
+
     return model
 
 
@@ -356,6 +370,8 @@ def RunAL(dataset, dataproperty, remove_column, out_dir, layer, al_component):
     tr_ind, te_ind = al.initialize(random_state=1234567)
 
 
+    # XXX debug line
+    print('Depositing training and test sets')
     al.deposit(tr_ind, y[tr_ind])
     al.deposit(te_ind, y[te_ind])
 
@@ -363,6 +379,9 @@ def RunAL(dataset, dataproperty, remove_column, out_dir, layer, al_component):
     kim_calc = 'Tersoff_LAMMPS_Tersoff_1988T3_Si__MO_186459956893_003'
     calc = KIM(kim_calc)
 
+    # 
+    # XXX debug line
+    print('starting AL loop...')
     while al.query_number < al_component[0]:
         early_stopping = EarlyStopping(monitor='val_loss', min_delta=1e-6, patience=50, verbose=0, mode='auto')
         tr_ind = al.search(n_evaluation=3, ensemble='kfold', n_ensemble=3,
@@ -379,15 +398,22 @@ def RunAL(dataset, dataproperty, remove_column, out_dir, layer, al_component):
         pd.DataFrame(tr_ind).to_csv(out_dir+'/next_indices.csv',index=False)
 
 
+        # XXX debug line
+        print('computing energies of new training set')
         tr_energies = []
+        db = connect('structures.db')
         for ind in tr_ind:
             hash_ = dataset.iloc[ind]['hash']
-            atoms = db.get_atoms(hash==hash_)
+            for row in db.select(hash=hash_):
+                atoms = row.toatoms()
+                break
             tr_energies.append(compute_energy(atoms, calc))
 
         # XXX is there a way to do this through a list comprehension?
         #tr_energies = [compute_energy(row.toatoms(), calc) for row in
         #        db.select()]
+        tr_energies = np.array(tr_energies).reshape(-1, 1)
+        print('depositing new test set, iteration {}'.format(al.query_number))
         al.deposit(tr_ind, tr_energies)
 
         # you can run random search if you want to
