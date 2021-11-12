@@ -8,6 +8,11 @@
 # data files
 *.csv
 
+# graphics
+*.png
+*.svg
+*.pdf
+
 ### Python stuff
 
 # Byte-compiled / optimized / DLL files
